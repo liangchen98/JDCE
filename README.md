@@ -5,7 +5,7 @@ This is the code for the paper "Jointly Learn the Base Clustering and Ensemble f
 # Dependency
 * python==3.10.9
 * numpy==1.24.2
-* Pillow==9.2.0
+* Pillow==10.3.0
 * scikit_learn==1.1.1
 * scipy==1.10.0
 * torch==1.12.0
@@ -13,16 +13,16 @@ This is the code for the paper "Jointly Learn the Base Clustering and Ensemble f
 * tqdm==4.64.0
 
 # Datasets
-CIFAR-10, CIFAR-100, STL-10 will be automatically downloaded by Pytorch.
+CIFAR-10, CIFAR-100 and STL-10 can be automatically downloaded by Pytorch.
 
-For ImageNet-10 and ImageNet-dogs, the description of subsets can find [here](https://github.com/Yunfan-Li/Contrastive-Clustering).
+For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find [here](https://github.com/Yunfan-Li/Contrastive-Clustering).
 The folder of these two ImageNet datasets should be like this:
 ```
 Datasets
-    ├──  IMAGENET-10
+    ├──  ImageNet-10
     │   ├──data.npy
     │   ├──label.npy
-    ├──  IMAGENET-DOG
+    ├──  ImageNet-DOG
     │   ├──data.npy
     │   ├──label.npy
 
@@ -41,7 +41,7 @@ Once the training is completed, there will be a saved model in folder ```saved_m
 ```bash
 $ python test.py
 ```
-We provide some trained models, you can download here or find them in folder mentioned above.
+We provide some trained models, please download [here](https://drive.google.com/drive/folders/1ewY3Ark5OuFRas3Nu7xi_VrNXXJS7g3L?usp=sharing).
 
 ## Citation
 ```

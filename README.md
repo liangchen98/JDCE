@@ -18,7 +18,7 @@ CIFAR-10, CIFAR-100 and STL-10 can be automatically downloaded by Pytorch.
 For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find [here](https://github.com/Yunfan-Li/Contrastive-Clustering).
 The folder of these two ImageNet datasets should be like this:
 ```
-Datasets
+data
     ├──  ImageNet-10
     │   ├──data.npy
     │   ├──label.npy

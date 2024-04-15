@@ -19,12 +19,12 @@ For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find 
 The folder of these two ImageNet datasets should be like this:
 ```
 data
-    ├──  ImageNet-10
-    │   ├──data.npy
-    │   ├──label.npy
-    ├──  ImageNet-DOG
-    │   ├──data.npy
-    │   ├──label.npy
+  ├── ImageNet-10
+  │     ├──data.npy
+  │     ├──label.npy
+  ├── ImageNet-DOG
+  │     ├──data.npy
+  │     ├──label.npy
 
 ```
 

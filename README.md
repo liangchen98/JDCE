@@ -15,7 +15,7 @@ This is the code for the paper "Jointly Learn the Base Clustering and Ensemble f
 # Datasets
 CIFAR-10, CIFAR-100 and STL-10 can be automatically downloaded by Pytorch.
 
-For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find [here](https://github.com/Yunfan-Li/Contrastive-Clustering).
+For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find in folder ```data/dataset_name```.
 The folder of these two ImageNet datasets should be like this:
 ```
 data

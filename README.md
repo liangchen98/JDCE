@@ -13,7 +13,7 @@ This is the code for the paper "Jointly Learn the Base Clustering and Ensemble f
 * tqdm==4.64.0
 
 # Datasets
-CIFAR-10, CIFAR-100 and STL-10 can be automatically downloaded by Pytorch.
+CIFAR-10, CIFAR-100 and STL-10 can be automatically downloaded by Pytorch in folder ```data```.
 
 For ImageNet-10 and ImageNet-dogs, the description of selected subsets can find in folder ```data/dataset_name```.
 The folder of these two ImageNet datasets should be like this:
